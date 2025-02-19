@@ -1,4 +1,4 @@
-let API_URL = "http://164.92.66.5:5458";
+let API_URL = `${window.location.protocol}//${window.location.hostname}:5458`;
 
 function nanoid(t = 21) {
   return crypto.getRandomValues(new Uint8Array(t)).reduce((t, e) =>
