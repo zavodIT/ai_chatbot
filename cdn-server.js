@@ -1,3 +1,4 @@
+
 let API_URL = `${window.location.protocol}//${window.location.hostname}:5458`;
 
 function nanoid(t = 21) {
